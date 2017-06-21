@@ -29,7 +29,7 @@ return 0;
 void func(struct node** m)
 {
 int i;
-for (  i=0;i<2;++i)
+for (  i=0;i<2;++i;j=0;j<3;j++)
  {
      printf(" hye ");
      free(m[i]->s);

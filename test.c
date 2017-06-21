@@ -22,7 +22,7 @@ int main(void)
   m[1]->s =(char*)malloc(5);
   strcpy(m[1]->s, s2);
  //printf(" hjhas= %s", s);
-func(&m);
+// this is just testing activity
 return 0;
 }
 
